@@ -1,0 +1,54 @@
+body{
+    background: #cfccd7;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 50px;
+}
+
+.photo {
+    border: 2px solid rgb(232, 18, 18);
+}
+
+#title, .subtitle, .post_title {
+    color: rgb(37, 33, 33);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    border-top: 15px;
+}
+
+.post {
+    background: rgb(135, 135, 135);
+    padding: 17px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.post_image{
+    border-bottom: 15px;
+    width: 20%;
+    height: auto;
+}
+
+.post_content{
+    border: 0;
+    border-bottom: 10px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.links{
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.links li a {
+    color: rgb(27, 2, 255);
+    text-decoration: none;
+}
